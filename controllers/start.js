@@ -6,7 +6,7 @@ const start = {
   index(request, response) {
     logger.info('start rendering');
     const viewData = {
-      title: 'Homepage - Playlist',
+      title: 'Homepage - NBA Teams',
     };
     response.render('start', viewData);
   },

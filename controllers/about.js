@@ -6,7 +6,7 @@ const about = {
   index(request, response) {
     logger.info('about rendering');
     const viewData = {
-      title: 'About - Playlist',
+      title: 'About - NBA Teams',
     };
     response.render('about', viewData);
   },

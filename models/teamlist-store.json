@@ -1,0 +1,73 @@
+{
+  "teamlistCollection": [
+    
+    {
+      "id": "01",
+      "title": "Boston Celtics",
+      "numberOfMembers": 3,
+      "members": [
+        {
+          "id": "01",
+          "name": "Marcus Morris",
+          "position": "Forward"
+        },
+        {
+          "id": "02",
+          "name": "Aron Baynes",
+          "position": "Center-Forward"
+        },
+        {
+          "id": "03",
+          "name": "Kyrie Irving",
+          "position": "Guard"
+        }
+      ]
+    },
+    
+    {
+      "id": "02",
+      "title": "Toronto Raptors",
+      "numberOfMembers": 3,
+      "members": [
+        {
+          "id": "01",
+          "name": "Marcus Morris",
+          "position": "Forward"
+        },
+        {
+          "id": "02",
+          "name": "Aron Baynes",
+          "position": "Center-Forward"
+        },
+        {
+          "id": "03",
+          "name": "Kyrie Irving",
+          "position": "Guard"
+        }
+      ]
+    },
+
+    {
+      "id": "03",
+      "title": "Miami Heat",
+      "numberOfMembers": 3,
+      "members":[
+        {
+          "id": "01",
+          "name": "Udonis Haslem",
+          "position": "Forward"
+        },
+        {
+          "id": "02",
+          "name": "Ryan Anderson",
+          "position": "Forward"
+        },
+        {
+          "id": "03",
+          "name": "Dwyane Wade",
+          "position": "Guard"
+        }
+      ]
+    }
+  ]
+}
