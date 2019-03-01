@@ -1,0 +1,8 @@
+{{#each teamlists}}
+<h2 class="ui header">
+      {{title}}
+    </h2>
+    <p> Number of Members: {{numberOfMembers}} </p>
+    <a href="/teamlist/{{id}}"><i class="folder open outline icon"></i></a>
+    <a href="/deleteTeamlist/{{id}}"><i class="trash alternate outline icon"></i></a>
+{{/each}}

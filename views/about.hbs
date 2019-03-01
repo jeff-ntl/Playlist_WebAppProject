@@ -1,7 +1,80 @@
 {{> menu id="about"}}
+<section class="ui center aligned middle aligned raised segment">
+  
+  <h1 id="leftAlignedText">
+    Find us at:
+  </h1>
+  
+  
+  <!--implementation of maps (reference: w3schools-->
+  <div id="googleMap" style="width:100%;height:400px;"></div>
+  <script>
 
-<section class="ui center aligned middle aligned segment">
+  function myMap() {
+  var mapProp= {
+    center:new google.maps.LatLng(52.2609997,-7.1119081),
+    zoom:5,
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var myCenter = new google.maps.LatLng(52.248645426421184,-7.114309912611831)
+    var marker = new google.maps.Marker({
+    position:myCenter,
+    animation:google.maps.Animation.BOUNCE
+  });
+
+  marker.setMap(map); 
+  }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA95FfDj3iM8AWqgaGasb0YUdLy5gndImo&callback=myMap"></script> 
+  <!--end of implementation of maps-->
+  
+  
+  
+  <div class="ui divider"></div>
+  <!--
+  <div class="ui items">
+  <div class="item">
+    <a class="ui tiny image">
+      <img src="https://cdn.glitch.com/cccb9917-f9e6-4538-8161-396c6740a6a3%2Fface.png?1551394588931">
+    </a>
+    <div class="content">
+      <a class="header">Teek Leng Ng</a>
+      <div class="extra">
+        <p>Contact No: 012-3456789</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  -->
+  <div class="ui two column centered grid">
+  
+    <div class="ui items">
+      
+      <div class="item">
+        
+        <div class = "column">
+          <a class="ui mini image column">
+            <img src="https://cdn.glitch.com/cccb9917-f9e6-4538-8161-396c6740a6a3%2Fface.png?1551394588931">
+          </a>
+        </div>
+
+        <div class="content column">
+          <p class="header">Author: Teek Leng Ng</p>
+          <div class="extra">
+            <p>Contact No: 012-3456789</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="ui divider"></div>
+  
   <p>
-    Playlist maker - Version 1...
+    NBA Teams - Version 1.0
   </p>
+  
 </section>
+
